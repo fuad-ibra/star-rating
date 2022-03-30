@@ -1,0 +1,29 @@
+body {
+   display: flex;
+   align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+   background-color: #000;
+}
+
+.rating {
+   display: flex;
+   align-items: center;
+	gap: 12px;
+}
+
+.rating__star {
+	font-size: 36px;
+	line-height: 0.75;
+	color: #ccc;
+   cursor: pointer;
+}
+
+.rating__star.active {
+   color: orange;
+}
+
+.rating__value {
+	font-size: 26px;
+	color: #fff;
+}
